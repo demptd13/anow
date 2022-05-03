@@ -1,0 +1,132 @@
+@media (max-width: 1200px) {
+    .container {
+        max-width: 970px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 750px;
+    }
+    .style-input {
+        padding: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        max-width: none;
+    }
+    .footer {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .info {
+        margin-bottom: 20px;
+    }
+    .row {
+        margin-bottom: 15px;
+    }
+    .team-block,
+    .style-input,
+    .feedback,
+    .news-block,
+    .reviews {
+        padding: 0;
+    }
+    .team-block {
+    margin: 0;
+    }
+}
+
+@media (max-width: 805px) {
+    .card-block,
+    .feedback,
+    .three-blocks,
+    .our-skills,
+    .about-block,
+    .picture-block,
+    .form-block {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .picture-block,
+    .picture-text,
+    .style-input,
+    .news-block,
+    .feedback {
+        margin-bottom: 10px;
+    }
+    .form {
+        text-align: center;
+    }
+    .left-text-block-title,
+    .team-block-button {
+        padding: 10px;
+    }
+    blockquote {
+        padding-bottom: 10px;
+    }
+    .container {
+        padding: 5px;
+    }
+    .picture-text {
+        margin: 10px;
+    }
+    .picture img,
+    .message {
+        margin: 0;
+    }
+    .form form {
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 600px) {
+    .about-title,
+    .reviews-title,
+    .works-title {
+        text-align: center;
+        font-size: 80px;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 385px) {
+    .hero-block-buttons {
+        display: flex;
+        flex-direction: column;
+    }
+    .hero-btn {
+        margin-bottom: 10px;
+    }
+    input.text,
+    input.email,
+    input.message {
+        padding-right: 80px;
+    }
+}
+
+@media (min-width: 800px) {
+    .toggle-menu {
+        display: none;
+    }
+}
+
+@media (max-width: 800px) {
+    .nav-block,
+    .about-block,
+    .picture-block {
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+    }
+    .main-menu-mobile {
+        display: flex;
+        justify-content: space-between;
+    }
+}
